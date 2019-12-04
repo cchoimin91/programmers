@@ -7,7 +7,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * https://programmers.co.kr/learn/courses/30/lessons/12935?language=java
+ *  문제 : 제일 작은수 제거하기
+ *  https://programmers.co.kr/learn/courses/30/lessons/12935?language=java
+ *
  *
  * 문제 설명
  * 정수를 저장한 배열, arr 에서 가장 작은 수를 제거한 배열을 리턴하는 함수, solution을 완성해주세요.
@@ -19,9 +21,9 @@ import java.util.stream.Collectors;
  * 인덱스 i, j에 대해 i ≠ j이면 arr[i] ≠ arr[j] 입니다.
  */
 
-public class SkillTestLevel1 {
+public class 제일_작은수_제거하기 {
 
-    public SkillTestLevel1(){
+    public 제일_작은수_제거하기(){
         int[] arr = {4,3,2,1};
         System.out.println(solution(arr));
     }
